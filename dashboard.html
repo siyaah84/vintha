@@ -1,0 +1,22 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title>Dashboard</title> 
+<link rel="stylesheet" href="style.css"> 
+</head> 
+<body> 
+<div class="container"> 
+<h2>Enter Marks & Target</h2> 
+<form action="calculate_cgpa.php" method="post"> 
+<input type="number" name="subject1" placeholder="Subject 1 Marks" required><br> 
+<input type="number" name="subject2" placeholder="Subject 2 Marks" required><br> 
+<input type="number" name="subject3" placeholder="Subject 3 Marks" required><br> 
+<input type="number" name="subject4" placeholder="Subject 4 Marks" required><br> 
+<input type="number" name="subject5" placeholder="Subject 5 Marks" required><br> 
+<input type="number" name="target_cgpa" step="0.01" placeholder="Target CGPA" 
+required><br> 
+<input type="submit" value="Calculate CGPA"> 
+</form> 
+</div> 
+</body> 
+</html>
